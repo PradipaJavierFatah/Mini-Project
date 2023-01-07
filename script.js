@@ -1,5 +1,5 @@
 
-Navbar
+// Navbar
 const navbar = document.getElementById('navbar');
 let prevYpos = 0;
 
@@ -13,15 +13,15 @@ window.onscroll = function(){
     prevYpos = Ypos;
 }
 
-const hamburgerButton = document.getElementById('hamburger-btn');
-const closeButton = document.getElementById('close-btn');
+// const hamburgerButton = document.getElementById('hamburger-btn');
+// const closeButton = document.getElementById('close-btn');
 
-hamburgerButton.addEventListener('click',toggleNav);
-closeButton.addEventListener('click',toggleNav)
+// hamburgerButton.addEventListener('click',toggleNav);
+// closeButton.addEventListener('click',toggleNav)
 
-function toggleNav(){
-    document.getElementsByClassName('nav-menu')[0].classList.toggle('active');
-}
+// function toggleNav(){
+//     document.getElementsByClassName('nav-menu')[0].classList.toggle('active');
+// }
 
 
 // //scroll bar
